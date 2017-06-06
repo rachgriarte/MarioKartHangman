@@ -1,16 +1,17 @@
 /*background*/
 body {
-	background: url(../images/mariokartt.gif) no-repeat fixed;
+	background: url(../images/mariokart.gif) no-repeat fixed;
 	background-size: 100% 100%;
 }
 
 /*header*/
+
 h1 {
 	background-color: white;
-	border: 20px solid yellow;
+	border: 20px dotted yellow;
 	color: orange;
 	text-align: center;
-	margin-top: 0;
+	margin: 10px 100px;
 }
 
 /*body*/
@@ -20,14 +21,6 @@ h1 {
 	border: 10px solid orange;
 	margin: 5px;
 	text-align: center;
-}
-
-.userGuess {
-	background-color: white;
-	color: orange;
-	border: 10px solid orange;
-	margin: 5px;
-	font-size: 2rem;
 }
 
 /*footer*/

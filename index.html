@@ -6,43 +6,34 @@
 		<meta name="viewport" content="width-device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js">
-		<link href='https://fonts.googleapis.com/css?family=Geo' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-		<h1>
-			<img src="assets/images/mariokartfont.jpg">
-			Press Any Key To Start!
-		</h1>
+			<h1>
+				<img src="assets/images/mariokartfont.jpg">
+				Press Any Key To Start!
+			</h1>
 	</head>
-
-	<body>
-		<div class="container">
+		<body>
+			<div class="container">
 				<div class="row">
-					<div class="col-md-4"></div>
-					<div class="col-md-4"></div>
+					<div class="col-md-8"></div>
 					<div class="col-md-4">
 						<div class="imagess">
 							<img src= "assets/images/mario.jpg">
+							<br>
+							<h2 id="wordblanks">_ _ _ _ _ _ _ _ _ </h2> 
+							<br>
+							Letters Already Guessed: <span id="wrongGuesses"></span>
+							<br>
+							Numbers Of Guesses Remaining: <span id="guessesLeft">9</span>
+							<br>
+							Wins: <span id="winCounter">0</span>
+							Loses: <span id="lossCounter">0</span>
 						</div>
 					</div>
 				</div>
-
-			<div class="row">
-				<div class="col-md-4"></div>
-				<div class="col-md-4"></div>
-				<div class="col-md-4">
-					<div class="userGuess">
-						Wins:
-						<br>
-						Current Word: _ _ _ _ _ _ _ _ _ _ _
-						<br>
-						Number Of Guesses Remaining:
-						<br>
-						Letters Already Guessed:  
-					</div>
-				</div>
 			</div>
-		</div>
-	</body>
+			<script type="text/javascript" src="assets/javascript/game.js"></script>
+		</body>
 	<footer> Copyright 2017 Rachel Griarte </footer>
+	<audio autoplay src="assets/mariokartaudio.wav">
 </html>
