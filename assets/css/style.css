@@ -1,0 +1,42 @@
+/*background*/
+body {
+	background: url(../images/mariokartt.gif) no-repeat fixed;
+	background-size: 100% 100%;
+}
+
+/*header*/
+h1 {
+	background-color: white;
+	border: 20px solid yellow;
+	color: orange;
+	text-align: center;
+	margin-top: 0;
+}
+
+/*body*/
+.imagess {
+	background-color: white;
+	color: orange;
+	border: 10px solid orange;
+	margin: 5px;
+	text-align: center;
+}
+
+.userGuess {
+	background-color: white;
+	color: orange;
+	border: 10px solid orange;
+	margin: 5px;
+	font-size: 2rem;
+}
+
+/*footer*/
+footer {
+	color: yellow;
+	font-size: 2rem;
+	text-align: center;
+	position: absolute;
+  	width:100%;
+  	bottom: 0;
+}
+
